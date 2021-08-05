@@ -1,0 +1,59 @@
+{
+    "assumptions": {},
+    "targets": {},
+    "cloneInputAst": true,
+    "babelrc": false,
+    "configFile": false,
+    "browserslistConfigFile": false,
+    "passPerPreset": false,
+    "envName": "development",
+    "cwd": "D:\\code\\interview-code\\前端\\packages\\babel-transform-demo\\node",
+    "root": "D:\\code\\interview-code\\前端\\packages\\babel-transform-demo\\node",
+    "rootMode": "root",
+    "plugins": [
+        {
+            "key": "base$0",
+            "visitor": {
+                "Program": {
+                    "exit": [
+                        null
+                    ]
+                },
+                "JSXOpeningElement": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "ImportDeclaration": {
+                    "enter": [
+                        null
+                    ]
+                },
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {}
+        },
+        {
+            "key": "base$1",
+            "visitor": {
+                "_exploded": true,
+                "_verified": true
+            },
+            "options": {}
+        }
+    ],
+    "presets": [],
+    "parserOpts": {
+        "sourceType": "module",
+        "plugins": [
+            "jsx"
+        ]
+    },
+    "generatorOpts": {
+        "comments": true,
+        "compact": "auto",
+        "sourceMaps": false,
+        "sourceFileName": "unknown"
+    }
+}

@@ -1,0 +1,306 @@
+{
+    "id": "32011",
+    "name": "LV 路易威登 CHERIE露跟高跟鞋 1A86GF",
+    "name_en": null,
+    "code": "1A86GF",
+    "alias": "",
+    "sales_unit": "",
+    "description": "Cherie 露跟高跟鞋以小牛皮和 Monogram 帆布包裹鞋头，搭配温婉小猫跟，令经典设计展露潮流魅力。弹力后带实现轻松穿脱，嵌有橡胶的皮革外底提升耐磨性。",
+    "description_en": "",
+    "details": "",
+    "details_en": "",
+    "mobile_details": "&lt;img src=&quot;https://comall-magic-test.oss-cn-beijing.aliyuncs.com/assets/upload/miao/productdetail/e67980da70aa221017a6b693ec6ae747.png&quot; title=&quot;e67980da70aa221017a6b693ec6ae747.png&quot;&gt;&lt;h1&gt;标题1&lt;/h1&gt;&lt;h3&gt;标题2&lt;/h3&gt;&lt;strong&gt;大的&lt;/strong&gt;",
+    "mobile_details_en": "&lt;h1&gt;标题1&lt;/h1&gt;&lt;h3&gt;标题2&lt;/h3&gt;&lt;strong&gt;大的&lt;/strong&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;",
+    "is_new": false,
+    "merchant": {
+        "id": "2001",
+        "name": "LV专卖店",
+        "code": "LV001",
+        "mobile": null,
+        "company_name": "LV专卖店",
+        "customer_phone": "",
+        "phone": "",
+        "email": "",
+        "type": null,
+        "sid": "",
+        "logo_pic": "https://magic-dev.oss-cn-beijing.aliyuncs.com/assets\\upload\\miao\\watermara/61232489044fe72034ca413bbecc4a73.png"
+    },
+    "category": {
+        "id": "14030",
+        "name": "奢侈品女鞋",
+        "name_en": "",
+        "code": null,
+        "alias": ""
+    },
+    "brand": {
+        "id": "22007",
+        "code": null,
+        "name": "路易威登"
+    },
+    "virtual_categories": [],
+    "pictures": [
+        {
+            "id": "40027",
+            "name": "LV 高跟鞋2.png",
+            "url": "https://magic-dev.oss-cn-beijing.aliyuncs.com/assets\\upload\\miao\\product/671cbb3bc7fba818815f865da8281005.png",
+            "extension": ".png",
+            "thumbnail_url": null,
+            "thumbnail_urls": null,
+            "sequence": 10
+        }
+    ],
+    "specifications": [
+        {
+            "attribute_id": 14002,
+            "title": "尺寸",
+            "default_value": null,
+            "attribute_options": [
+                {
+                    "option_id": "14023",
+                    "option_value": "34",
+                    "sort": null
+                },
+                {
+                    "option_id": "14024",
+                    "option_value": "35",
+                    "sort": null
+                },
+                {
+                    "option_id": "14025",
+                    "option_value": "36",
+                    "sort": null
+                },
+                {
+                    "option_id": "14026",
+                    "option_value": "37",
+                    "sort": null
+                },
+                {
+                    "option_id": "14027",
+                    "option_value": "38",
+                    "sort": null
+                },
+                {
+                    "option_id": "14028",
+                    "option_value": "39",
+                    "sort": null
+                },
+                {
+                    "option_id": "14029",
+                    "option_value": "40",
+                    "sort": null
+                }
+            ],
+            "value": null
+        }
+    ],
+    "params": null,
+    "goods": [
+        {
+            "id": "40063",
+            "product_style_id": "32021",
+            "code": "1A86GF000",
+            "bar_code": "",
+            "name": "尺寸:34 ",
+            "front_name": "尺寸:34 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 70,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": true,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14023
+                }
+            ]
+        },
+        {
+            "id": "40064",
+            "product_style_id": "32022",
+            "code": "1A86GF001",
+            "bar_code": "",
+            "name": "尺寸:35 ",
+            "front_name": "尺寸:35 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 70,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": false,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14024
+                }
+            ]
+        },
+        {
+            "id": "40065",
+            "product_style_id": "32023",
+            "code": "1A86GF002",
+            "bar_code": "",
+            "name": "尺寸:36 ",
+            "front_name": "尺寸:36 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 70,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": false,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14025
+                }
+            ]
+        },
+        {
+            "id": "40066",
+            "product_style_id": "32024",
+            "code": "1A86GF003",
+            "bar_code": "",
+            "name": "尺寸:37 ",
+            "front_name": "尺寸:37 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 70,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": false,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14026
+                }
+            ]
+        },
+        {
+            "id": "40067",
+            "product_style_id": "32025",
+            "code": "1A86GF004",
+            "bar_code": "",
+            "name": "尺寸:38 ",
+            "front_name": "尺寸:38 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 70,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": false,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14027
+                }
+            ]
+        },
+        {
+            "id": "40068",
+            "product_style_id": "32026",
+            "code": "1A86GF005",
+            "bar_code": "",
+            "name": "尺寸:39 ",
+            "front_name": "尺寸:39 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 70,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": false,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14028
+                }
+            ]
+        },
+        {
+            "id": "40069",
+            "product_style_id": "32027",
+            "code": "1A86GF006",
+            "bar_code": "",
+            "name": "尺寸:40 ",
+            "front_name": "尺寸:40 ",
+            "front_name_en": "",
+            "weight": 600.0000,
+            "subsite_id": "4",
+            "merchant_id": "2001",
+            "stock": 7,
+            "stock_tip": "",
+            "sales_price": 6700.0000,
+            "point_price": 0,
+            "market_price": 7700.0000,
+            "sale_count": 0,
+            "reward_points": null,
+            "is_default": false,
+            "is_explosion": false,
+            "delivery_mode": null,
+            "shelf_status": true,
+            "specifications": [
+                {
+                    "attribute_id": 14002,
+                    "option_id": 14029
+                }
+            ]
+        }
+    ],
+    "tags": null,
+    "product_styles": null,
+    "extends": null
+}

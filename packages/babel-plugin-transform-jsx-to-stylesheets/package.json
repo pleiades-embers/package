@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-transform-jsx-to-stylesheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "jest": "^27.0.6"
+  }
+}

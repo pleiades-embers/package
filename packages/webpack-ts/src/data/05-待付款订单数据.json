@@ -1,0 +1,243 @@
+
+{
+    "subsite_orders": [
+        {
+            "format": "SUPERMARKET",
+            "orders": [
+                {
+                    "products": [
+                        {
+                            "name": "LV 路易威登 CHERIE露跟高跟鞋 1A8UMN",
+                            "pic": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/product/7d9d98d582eac0ae7460b753254cad96_300x300.png",
+                            "quantity": 71,
+                            "price": "7400.00",
+                            "weight": 600.0,
+                            "type": "NORMAL",
+                            "trade_price": {
+                                "key": "销售价",
+                                "value": "7400.00"
+                            },
+                            "sales_price": {
+                                "value": "7400.0000",
+                                "type_id": "0",
+                                "type_name": "销售价",
+                                "is_show_price": "1"
+                            },
+                            "contrast_price": null,
+                            "comment": false,
+                            "goods_id": 38070,
+                            "product_id": 30012,
+                            "is_limit": false,
+                            "item_type": 1,
+                            "style_id": 30026,
+                            "style_name": "尺寸:37 ",
+                            "point_price": 0,
+                            "is_comment": false,
+                            "product_remarkId": 0,
+                            "product_review_id": null,
+                            "is_gift": false,
+                            "is_additional": false,
+                            "display_unit": "PIECE"
+                        },
+                        {
+                            "name": "LV 路易威登 URBAN TWIST 高跟鞋 1A7RZY",
+                            "pic": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/product/5203ee22c056a21ef4133ae7b9d8053a_300x300.png",
+                            "quantity": 55,
+                            "price": "8200.00",
+                            "weight": 600.0,
+                            "type": "NORMAL",
+                            "trade_price": {
+                                "key": "销售价",
+                                "value": "8200.00"
+                            },
+                            "sales_price": {
+                                "value": "8200.0000",
+                                "type_id": "0",
+                                "type_name": "销售价",
+                                "is_show_price": "1"
+                            },
+                            "contrast_price": null,
+                            "comment": false,
+                            "goods_id": 40088,
+                            "product_id": 32014,
+                            "is_limit": false,
+                            "item_type": 1,
+                            "style_id": 32046,
+                            "style_name": "尺寸:38 ",
+                            "point_price": 0,
+                            "is_comment": false,
+                            "product_remarkId": 0,
+                            "product_review_id": null,
+                            "is_gift": false,
+                            "is_additional": false,
+                            "display_unit": "PIECE"
+                        },
+                        {
+                            "name": "LV 路易威登 URBAN TWIST 高跟鞋 1A7RZY",
+                            "pic": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/product/5203ee22c056a21ef4133ae7b9d8053a_300x300.png",
+                            "quantity": 55,
+                            "price": "8200.00",
+                            "weight": 600.0,
+                            "type": "NORMAL",
+                            "trade_price": {
+                                "key": "销售价",
+                                "value": "8200.00"
+                            },
+                            "sales_price": {
+                                "value": "8200.0000",
+                                "type_id": "0",
+                                "type_name": "销售价",
+                                "is_show_price": "1"
+                            },
+                            "contrast_price": null,
+                            "comment": false,
+                            "goods_id": 40087,
+                            "product_id": 32014,
+                            "is_limit": false,
+                            "item_type": 1,
+                            "style_id": 32045,
+                            "style_name": "尺寸:37 ",
+                            "point_price": 0,
+                            "is_comment": false,
+                            "product_remarkId": 0,
+                            "product_review_id": null,
+                            "is_gift": false,
+                            "is_additional": false,
+                            "display_unit": "PIECE"
+                        },
+                        {
+                            "name": "LV 路易威登 CHERIE露跟高跟鞋 1A8UMN",
+                            "pic": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/product/7d9d98d582eac0ae7460b753254cad96_300x300.png",
+                            "quantity": 5,
+                            "price": "7400.00",
+                            "weight": 600.0,
+                            "type": "NORMAL",
+                            "trade_price": {
+                                "key": "销售价",
+                                "value": "7400.00"
+                            },
+                            "sales_price": {
+                                "value": "7400.0000",
+                                "type_id": "0",
+                                "type_name": "销售价",
+                                "is_show_price": "1"
+                            },
+                            "contrast_price": null,
+                            "comment": false,
+                            "goods_id": 38071,
+                            "product_id": 30012,
+                            "is_limit": false,
+                            "item_type": 1,
+                            "style_id": 30027,
+                            "style_name": "尺寸:38 ",
+                            "point_price": 0,
+                            "is_comment": false,
+                            "product_remarkId": 0,
+                            "product_review_id": null,
+                            "is_gift": false,
+                            "is_additional": false,
+                            "display_unit": "PIECE"
+                        }
+                    ],
+                    "id": 10001,
+                    "order_number": "21012210628100142006401",
+                    "merchant_name": "LV专卖店",
+                    "order_type": "ordinary"
+                },
+                {
+                    "products": [
+                        {
+                            "name": "迪奥女包",
+                            "pic": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/product/2815fa215a9b30655a720fbbdd9a94f9_300x300.png",
+                            "quantity": 197,
+                            "price": "0.01",
+                            "weight": 12312.0,
+                            "type": "NORMAL",
+                            "trade_price": {
+                                "key": "销售价",
+                                "value": "0.01"
+                            },
+                            "sales_price": {
+                                "value": "0.0100",
+                                "type_id": "0",
+                                "type_name": "销售价",
+                                "is_show_price": "1"
+                            },
+                            "contrast_price": null,
+                            "comment": false,
+                            "goods_id": 443186,
+                            "product_id": 58012,
+                            "is_limit": false,
+                            "item_type": 1,
+                            "style_id": 58023,
+                            "style_name": "迪奥女包",
+                            "point_price": 0,
+                            "is_comment": false,
+                            "product_remarkId": 0,
+                            "product_review_id": null,
+                            "is_gift": false,
+                            "is_additional": false,
+                            "display_unit": "PIECE"
+                        }
+                    ],
+                    "id": 10002,
+                    "order_number": "21012210628100142006102",
+                    "merchant_name": "Dior联营店",
+                    "order_type": "ordinary"
+                }
+            ],
+            "subsite_id": 4,
+            "subsite_name": "北京渔阳置业大厦店",
+            "delivery_mode_id": "1001",
+            "delivery_date": "",
+            "delivery_start_time": "",
+            "delivery_end_time": "",
+            "delivery_alias_name": "商家配送",
+            "delivery_mode_name": "快递",
+            "delivery_ontime": "",
+            "delivery_date_type": "",
+            "delivery_start_date": "",
+            "delivery_end_date": ""
+        }
+    ],
+    "address": "渔阳置业大厦",
+    "mobile": "13012341234",
+    "order_amount": "1464401.97",
+    "goods_discount_amount": "0.00",
+    "card_payment_value": "0.00",
+    "order_weight": "2537.064",
+    "freight_service_fee": "0.00",
+    "payable_amount": "1464401.97",
+    "freight_fee": "0.00",
+    "product_amount": "1464401.97",
+    "point_payment_value": "0.00",
+    "goods_point_amount": "0",
+    "freight_fee_discount": "0.00",
+    "product_num": 383,
+    "receiver_name": "张三",
+    "region_name": "北京朝阳区安贞街道",
+    "order_create_time": "2021-06-28 10:01:42",
+    "pay_type": 2,
+    "pay_type_name": "第三方在线支付",
+    "need_invoice": false,   //是否却发票
+    "invoice_type": null,
+    "invoice_type_name": "",
+    "invoice_title": "",
+    "invoice_content": "",
+    "invoice_category": "",
+    "remark": "",
+    "is_cancelable": true,   //是否可取消
+    "order_status": 1,
+    "is_payable": true,    //是否可支付
+    "has_limit": false,
+    "count_down": "3563"
+}
+
+
+is_cancelable: false   //是否可取消 
+is_commentable: false  //是否可评论
+is_payable: false    //是否可支付
+is_rebuyable: true    //重复购买
+is_receiveable: false   //签收
+is_serviceable: false   //售后
+is_traceable: false  //看不看物流配送

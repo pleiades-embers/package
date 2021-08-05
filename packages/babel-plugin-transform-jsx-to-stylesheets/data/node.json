@@ -1,0 +1,135 @@
+{
+    "type": "ImportDeclaration",
+    "start": 1,
+    "end": 48,
+    "loc": {
+        "start": {
+            "line": 2,
+            "column": 0
+        },
+        "end": {
+            "line": 2,
+            "column": 47
+        }
+    },
+    "specifiers": [
+        {
+            "type": "ImportSpecifier",
+            "start": 10,
+            "end": 23,
+            "loc": {
+                "start": {
+                    "line": 2,
+                    "column": 9
+                },
+                "end": {
+                    "line": 2,
+                    "column": 22
+                }
+            },
+            "imported": {
+                "type": "Identifier",
+                "start": 10,
+                "end": 23,
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 9
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 22
+                    },
+                    "identifierName": "createElement"
+                },
+                "name": "createElement"
+            },
+            "local": {
+                "type": "Identifier",
+                "start": 10,
+                "end": 23,
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 9
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 22
+                    },
+                    "identifierName": "createElement"
+                },
+                "name": "createElement"
+            }
+        },
+        {
+            "type": "ImportSpecifier",
+            "start": 25,
+            "end": 34,
+            "loc": {
+                "start": {
+                    "line": 2,
+                    "column": 24
+                },
+                "end": {
+                    "line": 2,
+                    "column": 33
+                }
+            },
+            "imported": {
+                "type": "Identifier",
+                "start": 25,
+                "end": 34,
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 24
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 33
+                    },
+                    "identifierName": "Component"
+                },
+                "name": "Component"
+            },
+            "local": {
+                "type": "Identifier",
+                "start": 25,
+                "end": 34,
+                "loc": {
+                    "start": {
+                        "line": 2,
+                        "column": 24
+                    },
+                    "end": {
+                        "line": 2,
+                        "column": 33
+                    },
+                    "identifierName": "Component"
+                },
+                "name": "Component"
+            }
+        }
+    ],
+    "source": {
+        "type": "StringLiteral",
+        "start": 42,
+        "end": 47,
+        "loc": {
+            "start": {
+                "line": 2,
+                "column": 41
+            },
+            "end": {
+                "line": 2,
+                "column": 46
+            }
+        },
+        "extra": {
+            "rawValue": "rax",
+            "raw": "'rax'"
+        },
+        "value": "rax"
+    }
+}

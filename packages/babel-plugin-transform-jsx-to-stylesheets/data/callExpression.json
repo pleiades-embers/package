@@ -1,0 +1,17 @@
+{
+    "type": "VariableDeclaration",
+    "kind": "var",
+    "declarations": [
+        {
+            "type": "VariableDeclarator",
+            "id": {
+                "type": "Identifier",
+                "name": "_styleSheet"
+            },
+            "init": {
+                "type": "Identifier",
+                "name": "StyleSheet"
+            }
+        }
+    ]
+}

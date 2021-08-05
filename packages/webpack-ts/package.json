@@ -1,0 +1,17 @@
+{
+  "name": "webpack-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.js"
+  },
+  "keywords": [
+    "typescript",
+    "source_code"
+  ],
+  "author": "935267851@qq.com",
+  "license": " MIT"
+}

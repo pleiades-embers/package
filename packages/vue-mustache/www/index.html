@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script src="/xxx/bundle.js"></script>
+
+    <script>
+        var templateStr = `<ul>
+            {{#arr}}
+           <li>
+                   <div class="hd">{{name}}的信息</div>
+                   <div class="bd">
+                       <p>姓名:{{name}}</p>
+                       <p>年龄:{{age}}</p>
+                       <p>性别:{{sex}}</p>
+                   </div>
+           </li>
+           {{/arr}}
+            `
+        var data = {
+            arr: [{
+                    "name": "小明",
+                    'age': 12,
+                    "sex": "男"
+                },
+                {
+                    "name": "小红",
+                    'age': 11,
+                    "sex": "女"
+                },
+                {
+                    "name": "小强",
+                    'age': 13,
+                    "sex": "男"
+                },
+            ]
+        }
+
+        SSG_TemplateEngine.render(templateStr, data)
+    </script>
+
+</body>
+
+</html>

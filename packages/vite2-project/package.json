@@ -1,0 +1,19 @@
+{
+  "name": "vite2-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/vue-router": "^2.0.0",
+    "@vitejs/plugin-vue-jsx": "^1.1.0",
+    "axios": "^0.21.1",
+    "element3": "0.0.39",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0"
+  }
+}
