@@ -1,0 +1,329 @@
+{
+    "invoice": {
+        "invoice_status": 0,
+        "invoice_types": [
+            {
+                "name": "个人",
+                "invoice_type": 0,
+                "invoice_content": ""
+            },
+            {
+                "name": "公司",
+                "invoice_type": 1,
+                "invoice_content": ""
+            }
+        ],
+        "invoice_categorys": []
+    },
+    "carts": [
+        {
+            "merchant_checkouts": [],
+            "cart": {
+                "cart_name": "北京渔阳置业大厦店",
+                "format": "SUPERMARKET",
+                "subsite_id": 4,
+                "baskets": [
+                    {
+                        "id": 2001,
+                        "rewards": [],
+                        "cart_time_limits": [],
+                        "last_add_time": 1629082882464,
+                        "merchant_name": "LV专卖店",
+                        "basket_items": [
+                            {
+                                "id": 11,
+                                "goods": {
+                                    "weight": 600.0000,
+                                    "point": 0,
+                                    "goods_tags": [],
+                                    "type": "NORMAL",
+                                    "display_unit": "PIECE",
+                                    "step_value": 1,
+                                    "virtual_category_ids": [],
+                                    "id": 40086,
+                                    "name": "LV 路易威登 URBAN TWIST 高跟鞋 1A7RZY",
+                                    "status": "ENABLE",
+                                    "brand_id": 22007,
+                                    "category_id": 14030,
+                                    "product_id": 32014,
+                                    "sales_price": 8200.00,
+                                    "market_price": 9200.0000,
+                                    "shelf_status": "SHELF",
+                                    "available_stock": 55,
+                                    "thumb_url": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/product/5203ee22c056a21ef4133ae7b9d8053a_500x500.png",
+                                    "product_style": {
+                                        "id": 32044,
+                                        "code": "1A7RZY002",
+                                        "bar_code": "",
+                                        "style_name": "尺寸:36 ",
+                                        "style_name_en": ": "
+                                    },
+                                    "cost_price": 3000.0000,
+                                    "subsite_id": 4,
+                                    "merchant_id": 2001,
+                                    "product_code": "",
+                                    "sales_unit": 1
+                                },
+                                "rewards": [],
+                                "status": "VALID",
+                                "select": true,
+                                "distribution_member_id": null,
+                                "invalid_quantity_with_presents": 0,
+                                "invalid_message": "",
+                                "quantity": 48,
+                                "valid_quantity": 48,
+                                "invalid_quantity": 0,
+                                "quantity_with_presents": 48,
+                                "valid_quantity_with_presents": 48,
+                                "weight": 28800.0000,
+                                "valid_weight": 28800.0000,
+                                "weight_with_presents": 28800.0000,
+                                "valid_weight_with_presents": 28800.0000,
+                                "amount": 393600.00,
+                                "valid_amount": 393600.00,
+                                "point_amount": 0,
+                                "valid_point_amount": 0,
+                                "coupon_discount_amount": 0,
+                                "total_coupon_discount_amount": 0,
+                                "deal_amount": 393600.00,
+                                "after_folding_amount": 393600.00,
+                                "execute_price": 8200.00,
+                                "amount_without_presents": 393600.00,
+                                "discount_amount": 0,
+                                "execute_point_price": 0,
+                                "deal_point_amount": 0,
+                                "add_time": 1629082882464
+                            }
+                        ],
+                        "quantity": 48,
+                        "valid_quantity": 48,
+                        "invalid_quantity": 0,
+                        "quantity_with_presents": 48,
+                        "valid_quantity_with_presents": 48,
+                        "invalid_quantity_with_presents": 0,
+                        "weight": 28800.0000,
+                        "valid_weight": 28800.0000,
+                        "weight_with_presents": 28800.0000,
+                        "valid_weight_with_presents": 28800.0000,
+                        "amount": 393600.00,
+                        "valid_amount": 393600.00,
+                        "point_amount": 0,
+                        "valid_point_amount": 0,
+                        "payable_point_amount": 0.00,
+                        "point_value": 0,
+                        "freight_amount": 0,
+                        "discount_amount": 0,
+                        "gift_point": 0,
+                        "coupon_discount_amount": 0,
+                        "total_coupon_discount_amount": 0,
+                        "freight_discount_amount": 0,
+                        "goods_payable_amount": 393600.00,
+                        "payable_amount": 393600.00,
+                        "e_gift_card_amount": 0.00,
+                        "estored_value_card_amount": 0.00,
+                        "payable_freight_amount": 0
+                    }
+                ],
+                "short_rewards": [],
+                "last_add_time": 1629082882464,
+                "cart_id": "4#2001_miao",
+                "quantity": 48,
+                "valid_quantity": 48,
+                "invalid_quantity": 0,
+                "quantity_with_presents": 48,
+                "valid_quantity_with_presents": 0,
+                "invalid_quantity_with_presents": 0,
+                "weight": 28800.0000,
+                "valid_weight": 28800.0000,
+                "weight_with_presents": 28800.0000,
+                "valid_weight_with_presents": 28800.0000,
+                "amount": 393600.00,
+                "valid_amount": 393600.00,
+                "point_amount": 0,
+                "valid_point_amount": 0,
+                "payable_point_amount": 0.00,
+                "point_value": 0,
+                "freight_amount": 0,
+                "discount_amount": 0,
+                "gift_point": 0,
+                "coupon_discount_amount": 0,
+                "total_coupon_discount_amount": 0,
+                "freight_discount_amount": 0,
+                "goods_payable_amount": 393600.00,
+                "payable_amount": 393600.00,
+                "cart_token": "E436627BF1567170B73B4442836B4D6B",
+                "e_gift_card_amount": 0.00,
+                "estored_value_card_amount": 0.00
+            },
+            "nonsupport_delivery_goods": []
+        }
+    ],
+    "payable_freight_amount": 0,
+    "consignees": [
+        {
+            "id": 2,
+            "name": "张三",
+            "mobile": "13012341234",
+            "address": "渔阳置业大厦",
+            "regions": [
+                {
+                    "id": 110105008,
+                    "name": "安贞街道"
+                },
+                {
+                    "id": 110000,
+                    "name": "北京"
+                },
+                {
+                    "id": 110105,
+                    "name": "朝阳区"
+                }
+            ],
+            "selected": true,
+            "valid": true,
+            "tip": "",
+            "default": true,
+            "region_id": 110105008
+        },
+        {
+            "id": 1,
+            "name": "哈哈",
+            "mobile": "13700503265",
+            "address": "123123",
+            "regions": [
+                {
+                    "id": 110000,
+                    "name": "北京"
+                },
+                {
+                    "id": 110119203,
+                    "name": "珍珠泉乡"
+                },
+                {
+                    "id": 110119,
+                    "name": "延庆区"
+                }
+            ],
+            "selected": false,
+            "valid": true,
+            "tip": "",
+            "default": false,
+            "region_id": 110119203
+        },
+        {
+            "id": 4001,
+            "name": "a s d",
+            "mobile": "13700503265",
+            "address": "撒打算大",
+            "regions": [
+                {
+                    "id": 120000,
+                    "name": "天津"
+                },
+                {
+                    "id": 120100,
+                    "name": "天津市"
+                },
+                {
+                    "id": 120118,
+                    "name": "静海区"
+                },
+                {
+                    "id": 120118402,
+                    "name": "天津子牙循环经济产业区"
+                }
+            ],
+            "selected": false,
+            "valid": true,
+            "tip": "",
+            "default": false,
+            "region_id": 120118402
+        },
+        {
+            "id": 4002,
+            "name": "666",
+            "mobile": "18501906139",
+            "address": "123123123",
+            "regions": [
+                {
+                    "id": 110000,
+                    "name": "北京"
+                },
+                {
+                    "id": 110119203,
+                    "name": "珍珠泉乡"
+                },
+                {
+                    "id": 110119,
+                    "name": "延庆区"
+                }
+            ],
+            "selected": false,
+            "valid": true,
+            "tip": "",
+            "default": false,
+            "region_id": 110119203
+        },
+        {
+            "id": 2001,
+            "name": "666",
+            "mobile": "18501906139",
+            "address": "123123",
+            "regions": [
+                {
+                    "id": 110000,
+                    "name": "北京"
+                },
+                {
+                    "id": 110119203,
+                    "name": "珍珠泉乡"
+                },
+                {
+                    "id": 110119,
+                    "name": "延庆区"
+                }
+            ],
+            "selected": false,
+            "valid": true,
+            "tip": "",
+            "default": false,
+            "region_id": 110119203
+        }
+    ],
+    "pay_modes": [
+        {
+            "name": "在线支付",
+            "selected": true,
+            "tip": "",
+            "payment_mode_type": 2
+        }
+    ],
+    "points": [
+        {
+            "pay_mode_id": 8,
+            "pay_mode_name": "积分抵扣",
+            "exchange_type": "1",
+            "exchange_ratio": "100",
+            "largest_percentage": "100",
+            "available_point": -358967296,
+            "largest_payable_freight": "393600.00",
+            "point_account_balance": 40000,
+            "pay_max_point_value": -358967200,
+            "point_pay_amount": 0,
+            "subistes": [],
+            "pay_min_point_value": 1,
+            "remark": "积分抵扣规则",
+            "exchange_amount": 1,
+            "max_use_count": "1000000"
+        }
+    ],
+    "amount": 393600.00,
+    "goods_payable_amount": 393600.00,
+    "discount_amount": 0,
+    "payable_amount": 393600.00,
+    "coupon_discount_amount": 0,
+    "freight_amount": 0,
+    "freight_discount_amount": 0,
+    "quantity_with_presents": 48,
+    "quantity": 48
+}

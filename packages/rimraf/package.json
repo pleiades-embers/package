@@ -4,7 +4,7 @@
   "description": "",
   "main": "rimraf.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,9 @@
   "bin": "./bin.js",
   "dependencies": {
     "glob": "^7.1.7",
-    "mkdirp": "^1.0.4",
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
     "tap": "^15.0.9"
   }
 }

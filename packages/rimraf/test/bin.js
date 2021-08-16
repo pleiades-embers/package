@@ -1,80 +1,45 @@
-var rimraf = require("../");
-var t = require("tap");
-var bin = require.resolve("../bin.js");
-var fs = require("fs");
-var node = process.execPath;
-var spawn = require("child_process").spawn;
-var mkdirp = require("mkdirp");
+const t = require("tap");
 
-t.test("setup", function (t) {
-  rimraf.sync(__dirname + "/bintest");
-  mkdirp.sync(__dirname + "/bintest");
-  process.chdir(__dirname + "/bintest");
-  mkdirp.sync("a/b/c");
-  mkdirp.sync("x/y/z");
-  fs.writeFileSync("a/1.txt", "\n");
-  fs.writeFileSync("a/2.txt", "\n");
-  fs.writeFileSync("a/3.txt", "\n");
-  fs.writeFileSync("a/*.txt", "\n");
-  fs.writeFileSync("a/b/1.txt", "\n");
-  fs.writeFileSync("a/b/2.txt", "\n");
-  fs.writeFileSync("a/b/3.txt", "\n");
-  fs.writeFileSync("a/b/*.txt", "\n");
-  fs.writeFileSync("a/b/c/1.txt", "\n");
-  fs.writeFileSync("a/b/c/2.txt", "\n");
-  fs.writeFileSync("a/b/c/3.txt", "\n");
-  fs.writeFileSync("a/b/c/*.txt", "\n");
-  fs.writeFileSync("x/1.txt", "\n");
-  fs.writeFileSync("x/2.txt", "\n");
-  fs.writeFileSync("x/3.txt", "\n");
-  fs.writeFileSync("x/*.txt", "\n");
-  fs.writeFileSync("x/y/1.txt", "\n");
-  fs.writeFileSync("x/y/2.txt", "\n");
-  fs.writeFileSync("x/y/3.txt", "\n");
-  fs.writeFileSync("x/y/*.txt", "\n");
-  fs.writeFileSync("x/y/z/1.txt", "\n");
-  fs.writeFileSync("x/y/z/2.txt", "\n");
-  fs.writeFileSync("x/y/z/3.txt", "\n");
-  fs.writeFileSync("x/y/z/*.txt", "\n");
-  t.end();
-});
+t.test("basic arg parsing stuff", (t) => {
+  const LOGS = [];
+  const ERRS = [];
 
-t.test("help", function (t) {
-  var helps = ["-help", "-h", "--help", "--?"];
-  t.plan(helps.length);
-  helps.forEach(function (h) {
-    t.test(h, test.bind(null, h));
+  const { log: consoleLog, error: consoleError } = console;
+  t.teardown(() => {
+    console.log = consoleLog;
+    console.error = consoleError;
   });
-  function test(h, t) {
-    var child = spawn(node, [bin, h]);
-    var out = "";
-    child.stdout.on("data", function (c) {
-      out += c;
-    });
-    child.on("close", function (code, signal) {
-      t.equal(code, 0);
-      t.equal(signal, null);
-      t.match(out, /^Usage: rimraf <path> \[<path> \.\.\.\]/);
-      t.end();
-    });
-  }
-});
+  console.log = (...msg) => LOGS.push(msg);
+  console.log = (...msg) => ERRS.push(msg);
+  const CALLS = [];
 
-t.test("glob, but matches", function (t) {
-  var child = spawn(node, [bin, "x/y/*.txt"]);
-  child.on("exit", function (code) {
-    t.equal(code, 0);
-    t.throws(fs.statSync.bind(fs, "x/y/*.txt"));
-    t.doesNotThrow(fs.statSync.bind(fs, "x/y/1.txt"));
+  const rimraf = async (path, opt) => CALLS.push(["rimraf", path, opt]);
+  const bin = t.mock("../lib/bin.js", {
+    "../lib/index.js": Object.assign(rimraf, {
+      native: async (path, opt) => CALLS.push(["native", path, opt]),
+      manual: async (path, opt) => CALLS.push(["manual", path, opt]),
+      posix: async (path, opt) => CALLS.push(["posix", path, opt]),
+      windows: async (path, opt) => CALLS.push(["windows", path, opt]),
+    }),
+  });
+  t.afterEach(() => {
+    LOGS.length = 0;
+    ERRS.length = 0;
+    CALLS.length = 0;
+  });
+
+  t.test("helpful output", (t) => {
+    const cases = [["-h"], ["--help"], ["a", "b", "--help", "c"]];
+    for (const c of cases) {
+      t.test(c.join(" "), async t => {
+        t.equal(await bin(...c), 0);
+        t.same(LOGS, [[bin.help]]);
+        // t.same(ERRS, []);
+        t.same(CALLS, []);
+      });
+    }
     t.end();
   });
-});
 
-
-
-t.test("cleanup", function (t) {
-  rimraf.sync(__dirname + "/bintest");
   t.end();
 });
-
-
