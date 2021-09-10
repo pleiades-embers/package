@@ -1,0 +1,216 @@
+{
+    "id": 54005,
+    "template": null,
+    "name": "个人中心页面2",
+    "type": "member",
+    "subsites": [],
+    "group_subsite_name": "123213123",
+    "config": {
+        "version": "1.0.0",
+        "headers": {},
+        "body": {
+            "navigationBar": {},
+            "share": {},
+            "tree": {
+                "$$typeof": "comall-component",
+                "key": "root",
+                "type": "root",
+                "props": {
+                    "children": [
+                        {
+                            "$$typeof": "comall-element",
+                            "type": "memberInfo",
+                            "key": "memberInfo-8cadea5d-391a-4946-a842-367bb8d302fe",
+                            "props": {
+                                "controller": [
+                                    "qrcode"
+                                ],
+                                "style": {
+                                    "backgroundImage": "https: //comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/e41e19ffd192fab886a193bb9aaecec8.png?default}"
+                                },
+                                "card": {
+                                    "style": {
+                                        "display": "none",
+                                        "backgroundImage": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/298901dadb527e6620975b794c8741e4.png?default}"
+                                    },
+                                    "progress": {
+                                        "enabled": true,
+                                        "color": "#007046"
+                                    },
+                                    "operator": {
+                                        "type": "none"
+                                    },
+                                    "content": ""
+                                }
+                            }
+                        },
+                        {
+                            "$$typeof": "comall-element",
+                            "type": "memberAssets",
+                            "key": "memberAssets-8029770b-04cc-4a9d-bb7a-dd818929ec99",
+                            "props": {}
+                        },
+                        {
+                            "$$typeof": "comall-element",
+                            "type": "memberAd",
+                            "key": "memberAd-4e5922e4-36e7-40f0-a3b0-8a17bbb6b2a1",
+                            "props": {
+                                "mode": 2,
+                                "positionStyle": 0,
+                                "entities": []
+                            }
+                        },
+                        {
+                            "$$typeof": "comall-element",
+                            "type": "memberCollection",
+                            "key": "memberCollection-e9434c6e-a9c8-4e23-a35e-93e7f0985752",
+                            "props": {}
+                        },
+                        {
+                            "$$typeof": "comall-element",
+                            "type": "orderManagement",
+                            "key": "orderManagement-a860f9c2-c44b-4925-a334-f88337448c27",
+                            "props": {}
+                        },
+                        {
+                            "$$typeof": "comall-element",
+                            "type": "memberService",
+                            "key": "memberService-929375af-66f8-45ba-9717-8cde296d6b14",
+                            "props": {
+                                "mode": 0,
+                                "entities": [
+                                    {
+                                        "picture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/d143b87a0eedffe91cfec80e4b9dede4.png",
+                                        "name": "收货地址",
+                                        "operator": {
+                                            "type": "service.address"
+                                        }
+                                    }
+                                ],
+                                "formEntities": [
+                                    {
+                                        "defaultName": "收货地址",
+                                        "operator": {
+                                            "type": "service.address"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/d143b87a0eedffe91cfec80e4b9dede4.png",
+                                        "name": "",
+                                        "active": true,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "在线客服",
+                                        "operator": {
+                                            "type": "service.customerService"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/7547a707c944eff8ec8ddabe16f43b66.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "邀请有礼",
+                                        "operator": {
+                                            "type": "service.inviteReward"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/dee09760ebe13cecec14cc797c729e3b.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "停车缴费",
+                                        "operator": {
+                                            "type": "service.parking"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/a6bc2d4af72d25b5b9ae80c9173b997f.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "自助积分",
+                                        "operator": {
+                                            "type": "service.pointSelfService"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/1e8c35e5c30deeb6567b00ab0194110f.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "帮助中心",
+                                        "operator": {
+                                            "type": "service.help"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/1e8c35e5c30deeb6567b00ab0194110f.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "积分商城",
+                                        "operator": {
+                                            "type": "service.pointMarket"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/1e8c35e5c30deeb6567b00ab0194110f.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "意见反馈",
+                                        "operator": {
+                                            "type": "service.feedback"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/1e8c35e5c30deeb6567b00ab0194110f.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    },
+                                    {
+                                        "defaultName": "领券中心",
+                                        "operator": {
+                                            "type": "couponsCenter"
+                                        },
+                                        "picture": "",
+                                        "defaultPicture": "https://comall-magic-dev.oss-cn-beijing.aliyuncs.com/assets/upload/miao/image/1e8c35e5c30deeb6567b00ab0194110f.png",
+                                        "name": "",
+                                        "active": false,
+                                        "preseted": true,
+                                        "pictureType": "default"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "enabled": true,
+    "create_user": "superuser",
+    "create_time": "2021-09-07 11:40:01",
+    "last_modify_time": "2021-09-07 13:57:13",
+    "effective_time": null,
+    "effective_state": "2",
+    "structure_fixed": false,
+    "merchant_id": null,
+    "server_time": "Tue Sep 07 2021 13:57:24 GMT+0800"
+}
