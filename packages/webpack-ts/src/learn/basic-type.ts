@@ -10,6 +10,7 @@ let n:null=null
 let num2: number = undefined
 
 
+
 // 元祖
 let tuple: [string, number, boolean]
 tuple = ['A', 1, false]

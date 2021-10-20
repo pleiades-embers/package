@@ -28,3 +28,13 @@ type k5=keyof typeof DeliveryDateType
 type Arrayish = { [k:number]: unknown };
 type A = keyof Arrayish;
 
+type Predicate = (x: unknown) => boolean;
+type K = ReturnType<Predicate>;
+
+//函数 typeof
+function f() {
+    return { x: 10, y: 3 };
+}
+type P = ReturnType<typeof f>;
+
+
