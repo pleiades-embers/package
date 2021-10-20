@@ -29,24 +29,44 @@ function __metadata(metadataKey, metadataValue) {
 }
 
 // export { TaroNode } from './dom/node'
-var Test = /*@__PURE__*/(function () {
-    function Test () {}
-
-    Test.prototype.hello = function hello () {
-        return 'hello world';
+function Prop() {
+    return function (target, key) {
+        var type = Reflect.getMetadata("design:type", target, key);
+        console.log((key + " type: " + (type.name)));
+        // other...
     };
+}
+var SomeClass = function SomeClass () {};
+__decorate([
+    Prop(),
+    __metadata("design:type", String)
+], SomeClass.prototype, "Aprop", void 0);
+__decorate([
+    Prop(),
+    __metadata("design:type", Number)
+], SomeClass.prototype, "Cprop", void 0);
+var A = /*@__PURE__*/(function () {
+    function A () {}
 
-    return Test;
+    A.prototype.hello = function hello () { };
+
+    return A;
 }());
 __decorate([
-    Reflect.metadata('inMethod', 'B'),
+    Reflect.metadata('name', 'hello'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", String)
-], Test.prototype, "hello", null);
-Test = __decorate([
-    Reflect.metadata('inClass', 'A')
-], Test);
-console.log(Reflect.getMetadata('inClass', Test)); // 'A'
-console.log(Reflect.getMetadata('inMethod', new Test(), 'hello')); // 'B'
+    __metadata("design:returntype", void 0)
+], A.prototype, "hello", null);
+A = __decorate([
+    Reflect.metadata('name', 'A')
+], A);
+var objs = [A, new A, A.prototype];
+var res = objs.map(function (obj) { return [
+    Reflect.getMetadata('name', obj),
+    Reflect.getMetadata('name', obj, 'hello'),
+    Reflect.getOwnMetadata('name', obj),
+    Reflect.getOwnMetadata('name', obj, 'hello')
+]; });
+console.log(res);
 //# sourceMappingURL=index.js.map

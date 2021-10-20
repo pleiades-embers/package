@@ -1,14 +1,33 @@
-import "reflect-metadata"
+import "reflect-metadata";
 // export { TaroNode } from './dom/node'
 
-
-@Reflect.metadata('inClass', 'A')
-class Test {
-  @Reflect.metadata('inMethod', 'B')
-  public hello(): string {
-    return 'hello world';
-  }
+function Prop(): PropertyDecorator {
+  return (target, key: string) => {
+    const type = Reflect.getMetadata("design:type", target, key);
+    console.log(`${key} type: ${type.name}`);
+    // other...
+  };
 }
 
-console.log(Reflect.getMetadata('inClass', Test)); // 'A'
-console.log(Reflect.getMetadata('inMethod', new Test(), 'hello')); // 'B'
+class SomeClass {
+  @Prop()
+  public Aprop!: string;
+  @Prop()
+  public Cprop!: number;
+}
+
+
+@Reflect.metadata('name', 'A')
+class A {
+  @Reflect.metadata('name', 'hello')
+  hello() {}
+}
+
+const objs = [A, new A, A.prototype]
+const res = objs.map(obj => [
+  Reflect.getMetadata('name', obj),
+  Reflect.getMetadata('name', obj, 'hello'),
+  Reflect.getOwnMetadata('name', obj),
+  Reflect.getOwnMetadata('name', obj ,'hello')
+])
+console.log(res)
