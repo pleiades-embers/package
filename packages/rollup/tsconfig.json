@@ -4,7 +4,9 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "types":["reflect-metadata"],
+    "lib": ["es6", "dom"],
   },
   "exclude": [
     "__tests__",
