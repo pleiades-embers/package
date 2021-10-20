@@ -1,9 +1,6 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 require('reflect-metadata');
-var inversify = require('inversify');
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -31,12 +28,25 @@ function __metadata(metadataKey, metadataValue) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
 }
 
-// @injectable()
-var TaroNode = function TaroNode () {};
-__decorate([
-    inversify.inject("TaroNodeImpl"),
-    __metadata("design:type", Object)
-], TaroNode.prototype, "impl", void 0);
+// export { TaroNode } from './dom/node'
+var Test = /*@__PURE__*/(function () {
+    function Test () {}
 
-exports.TaroNode = TaroNode;
+    Test.prototype.hello = function hello () {
+        return 'hello world';
+    };
+
+    return Test;
+}());
+__decorate([
+    Reflect.metadata('inMethod', 'B'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", String)
+], Test.prototype, "hello", null);
+Test = __decorate([
+    Reflect.metadata('inClass', 'A')
+], Test);
+console.log(Reflect.getMetadata('inClass', Test)); // 'A'
+console.log(Reflect.getMetadata('inMethod', new Test(), 'hello')); // 'B'
 //# sourceMappingURL=index.js.map
