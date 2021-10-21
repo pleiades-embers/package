@@ -44,10 +44,12 @@
   },
   "dependencies": {
     "babel-plugin-transform-jsx-to-stylesheets": "file:packages\\babel-plugin-transform-jsx-to-stylesheets",
+    "generator-eslint": "^3.0.1",
     "global": "^4.4.0",
     "rollup": "^2.58.0",
     "vite2-project": "file:packages\\vite2-project",
     "vue3-cli": "file:packages\\vue3-cli",
-    "webpack-ts": "file:packages\\webpack-ts"
+    "webpack-ts": "file:packages\\webpack-ts",
+    "yo": "^4.3.0"
   }
 }
